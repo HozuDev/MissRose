@@ -33,7 +33,7 @@ def start(client, message):
     darkprince = f'Salam men yutubdan mahni yukleme bbotuyam. Qruplarda isletmek ucun /hozu mahni adi:'
     message.reply_photo(
         photo='https://telegra.ph/file/cc3ed43bbd0ac05d8300d.jpg',
-        text=darkprince, 
+        caption=darkprince, 
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [
