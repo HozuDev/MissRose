@@ -30,7 +30,7 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    darkprince = message.reply_text('Salam men yutubdan mahni yukleme bbotuyam. Qruplarda isletmek ucun /hozu mahni adi:'
+    darkprince = f'Salam men yutubdan mahni yukleme bbotuyam. Qruplarda isletmek ucun /hozu mahni adi:'
     message.reply_text(
         text=darkprince, 
         quote=False,
