@@ -30,21 +30,22 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    darkprince = f'👋 Hello @{message.from_user.username}\n\n [😌🍀🤚](https://telegra.ph/file/86cc2e654b1157f12b94f.jpg)\n I\'m Rose, I can upload songs from YouTube. Type /a song name:'
+    darkprince = message.reply_text('Salam men yutubdan mahni yukleme bbotuyam. Qruplarda isletmek ucun /hozu mahni adi:'
     message.reply_text(
         text=darkprince, 
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Owner🎸', url='https://t.me/mr_dark_prince'),
+                    InlineKeyboardButton('Sahib', url='https://t.me/Dakanca_Hozu'),
+                    InlineKeyboardButton('support', url='https://t.me/leblequj'),
                     InlineKeyboardButton('Source💿', url='https://github.com/Mr-Dark-Prince/MissRose')
                 ]
             ]
         )
     )
 
-@bot.on_message(filters.command(['a']))
+@bot.on_message(filters.command(['hozu']))
 def a(client, message):
     query = ''
     for i in message.command[1:]:
