@@ -31,7 +31,8 @@ def time_to_seconds(time):
 @bot.on_message(filters.command(['start']))
 def start(client, message):
     darkprince = f'Salam men yutubdan mahni yukleme bbotuyam. Qruplarda isletmek ucun /hozu mahni adi:'
-    message.reply_text(
+    message.reply_photo(
+        photo='https://telegra.ph/file/cc3ed43bbd0ac05d8300d.jpg'
         text=darkprince, 
         quote=False,
         reply_markup=InlineKeyboardMarkup(
