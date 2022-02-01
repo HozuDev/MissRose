@@ -1,9 +1,9 @@
 # © Mr_D_P
 
 from pyrogram import Client, filters
-from pyrogram.types import ' (hack id aders confing galery menu program 14 id hack)'
-    InlineKeyboardButton,(hack nummer adres galery menu id 
-    InlineKeyboardMarkup (hack id) (5109396345)
+from pyrogram.types import ' 
+    InlineKeyboardButton,
+    InlineKeyboardMarkup 
 )
 import youtube_dl
 from youtube_search import YoutubeSearch
